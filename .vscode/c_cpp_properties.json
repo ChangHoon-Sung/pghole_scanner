@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/kesl/workspace/changhoon/linux-5.18-rc6-readahead-split/include",
+                "/home/kesl/workspace/changhoon/linux-5.18-rc6-readahead-split/include/uapi",
+                "/home/kesl/workspace/changhoon/linux-5.18-rc6-readahead-split/include/generated/uapi",
+                "/home/kesl/workspace/changhoon/linux-5.18-rc6-readahead-split/arch/x86/include",
+                "/home/kesl/workspace/changhoon/linux-5.18-rc6-readahead-split/arch/x86/include/generated",
+                "/home/kesl/workspace/changhoon/linux-5.18-rc6-readahead-split/arch/x86/include/generated/uapi",
+                "/home/kesl/workspace/changhoon/linux-5.18-rc6-readahead-split/arch/x86/include/uapi",
+                "/usr/lib/gcc/x86_64-linux-gnu/9/include"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "compilerArgs": [
+                "-include",
+                "/home/kesl/workspace/changhoon/linux-5.18-rc6-readahead-split/include/linux/kconfig.h",
+                "-include",
+                "/home/kesl/workspace/changhoon/linux-5.18-rc6-readahead-split/include/linux/compiler_types.h"
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "cStandard": "gnu11"
+        }
+    ],
+    "version": 4
+}
